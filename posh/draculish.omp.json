@@ -92,6 +92,19 @@
       "type": "prompt"
     },
     {
+      "alignment": "right",
+      "newline": false,
+      "segments": [
+        {
+          "type": "az",
+          "style": "plain",
+          "foreground": "p:pink",
+          "template": " {{ .EnvironmentName }}/{{ .Name }}/{{ .User.Name }} [{{ .Origin }}]"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
       "alignment": "left",
       "newline": true,
       "segments": [
