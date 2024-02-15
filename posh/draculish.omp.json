@@ -96,6 +96,9 @@
       "newline": false,
       "segments": [
         {
+          "properties": {
+            "source": "pwsh"
+          },
           "type": "az",
           "style": "plain",
           "foreground": "p:pink",
