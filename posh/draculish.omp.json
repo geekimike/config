@@ -102,7 +102,15 @@
           "type": "az",
           "style": "plain",
           "foreground": "p:pink",
-          "template": " {{ .EnvironmentName }}/{{ .Name }}/{{ .User.Name }} [{{ .Origin }}]"
+          "template": " {{ .EnvironmentName }}/{{ .User.Name }}/{{ .Name }} [{{ .Origin }}]"
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "p:comment",
+          "properties": {
+            "time_format": "15:04:05"
+          }
         }
       ],
       "type": "prompt"
