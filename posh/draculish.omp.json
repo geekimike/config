@@ -48,6 +48,27 @@
           "type": "os"
         },
         {
+          "style": "powerline",
+          "template": "\ue0c2 ",
+          "foreground": "p:purple",
+          "type": "text"
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "background": "p:purple",
+          "template": "{{.CurrentDate | date .Format }}",
+          "properties": {
+            "time_format": "15:04:05"
+          }
+        },
+        {
+          "style": "powerline",
+          "template": "\ue0b4 ",
+          "foreground": "p:purple",
+          "type": "text"
+        },
+        {
           "foreground": "p:foreground",
           "properties": {
             "folder_icon": "..\ue5fe..",
@@ -103,14 +124,6 @@
           "style": "plain",
           "foreground": "p:pink",
           "template": " {{ .EnvironmentName }}/{{ .User.Name }}/{{ .Name }} [{{ .Origin }}]"
-        },
-        {
-          "type": "time",
-          "style": "plain",
-          "foreground": "p:comment",
-          "properties": {
-            "time_format": "15:04:05"
-          }
         }
       ],
       "type": "prompt"
