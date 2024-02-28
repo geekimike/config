@@ -125,6 +125,7 @@
         {
           "type": "git",
           "style": "plain",
+          "foreground": "p:background",
           "background": "p:green",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}p:red{{ end }}",
