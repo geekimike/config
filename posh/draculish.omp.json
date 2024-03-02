@@ -192,13 +192,26 @@
       "newline": false,
       "segments": [
         {
+          "style": "powerline",
+          "template": "\u2500\ue0b6",
+          "foreground": "p:pink",
+          "type": "text"
+        },
+        {
           "properties": {
             "source": "pwsh"
           },
           "type": "az",
           "style": "plain",
-          "foreground": "p:pink",
+          "background": "p:pink",
+          "foreground": "p:background",
           "template": " {{ .EnvironmentName }}/{{ .User.Name }}/{{ .Name }} [{{ .Origin }}]"
+        },
+        {
+          "style": "powerline",
+          "template": "\ue0b4",
+          "foreground": "p:pink",
+          "type": "text"
         }
       ],
       "type": "prompt"
