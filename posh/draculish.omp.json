@@ -183,14 +183,7 @@
               "/Users/user/Projects/oh-my-posh/": "no"
             }
           }
-        }
-      ],
-      "type": "prompt"
-    },
-    {
-      "alignment": "right",
-      "newline": false,
-      "segments": [
+        },
         {
           "style": "powerline",
           "template": "\u2500\ue0b6",
